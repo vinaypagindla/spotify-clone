@@ -1,0 +1,409 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+}
+
+*{
+  font-family: "Figtree" ;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.nav-bar{
+    background-color: #000;
+    height: 4rem;
+    width: 100vw;
+    top: 0%;
+    position: fixed;
+}
+
+.side-bar{
+    background-color: #000;
+    height: 100vh; 
+    width: 30vw;
+}
+
+.main-content{
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+    background-color: #121212;
+    color: #fff;
+    margin-top: 4rem ;
+    border-radius: 1rem;
+
+}
+
+.music-player{
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0%;
+    height: 5rem;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+}
+
+
+
+.left-logo{
+    height: 3.25rem;
+    margin-left: 1rem;
+    padding-top: 5px;
+}
+
+.home-button{
+    margin: 0 0.8rem 0 2rem;
+    padding-top: px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.55rem;
+    background-color: #121211;
+    border-radius: 50%;
+
+}
+
+.search-text{
+    background-color: #1f1f1f;
+    color: white;
+    opacity: 0.7;
+    padding-top: 12px;
+    font-size: 1rem;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 30rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-text:hover{
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+
+.search-icon{
+    opacity: 0.7;
+    margin: 0 0.5rem 0 1.25rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+}
+
+.nav-right{
+    width: 40vw;
+    display: flex;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.right-opt{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    padding-top: 15px;
+}
+
+.right-ele{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0rem 0 0 1.5rem;
+    padding-top: 20px; 
+}
+
+.nav-right i{
+    font-size: 18px;
+    padding-right: 10px;
+    opacity: 0.7;
+}
+
+.right-imp{
+    margin:0 1.5rem 0 2.5rem;
+    border-left: #fff solid 1px;
+    padding-left: 50px;
+    height: 50px;
+}
+
+.nav-right a.right-opt:hover{
+    opacity: 1;
+    color: #fff;
+}
+a.right-ele:hover{
+    opacity: 1;
+    color: #fff;
+}
+
+.your-lib{
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  height:77%;
+  margin: 4.25rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.75rem;
+    
+}
+
+.lib-top{
+    display:  flex;
+    background-color: #121212;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.your-lib h3{
+    margin-left: 1.5rem ;
+    background-color: #121212;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.your-lib i{
+    background-color: #121212;
+    font-size: 1.1rem;
+    margin-right: 2.25rem ;
+    opacity: 0.5;
+}
+
+.boxes{
+    height: 70vh;
+    margin-top: 1rem;
+}
+
+.box1{
+    background-color: #232323;
+    height: 134px;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.box-head{
+    font-size: 1.1rem;
+    padding-top: 20px;
+        padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.box-line{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    opacity: 0.7;
+}
+
+.box-button{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0 1rem;
+    height: 2.1em;
+    border-radius: 2.5rem;
+
+}
+
+.box2{
+    margin-top: 1.5rem;
+}
+
+.box-terms{
+    color: #fff;
+    border: 1ps solid white;
+}
+
+.card-head{
+    margin: 2rem 0 1.5rem 1.5rem;
+
+}
+.card{
+    margin: 1rem 0 0  1.5rem;
+    display: flex;
+    
+}
+
+.insi{
+    text-align: center;
+    width: 12rem;
+    height: 15rem;
+    background-color: #232323;
+    border-radius: 15px;
+    margin-left: 10px;
+
+}
+
+.card-img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-title{
+    display: flex;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-info{
+    display: flex;
+    margin-left: 15px;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.artist{
+    border-radius: 20rem;
+    margin-top: 1rem;
+    height: 11rem;
+    width: 11rem;
+    background-color: transparent;
+}
+
+.art-bg{
+    background-color: transparent;
+}
+
+.footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+  width: 90%;
+  height: 50%;
+  border-top: 1px solid #fff;
+  opacity: 0.4;
+}
+
+.music-player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.album {
+  width: 25%;
+  display: flex;
+}
+
+.playback-bar {
+  width: 50%;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 25%;
+}
+
+.player-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-icon {
+  height: 1rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+}
+
+.player-icon:hover {
+  opacity: 1;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 70%;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 0.3rem; 
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #2bd760;
+  border-radius: 50%;
+  margin-top: -5.5px;
+}
+
+.album-options{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+.album-img{
+    height:56px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.album-name{
+    font-size: 1.1rem;
+    padding-bottom: 3px;
+}
+
+.album-artist{
+    font-size: 0.9rem;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.music-progress-bar{
+    width: 7rem;
+}
+
+.pci{
+    margin: 0.5rem;
+    font-size: 1rem;
+}
