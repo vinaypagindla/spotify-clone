@@ -407,3 +407,10 @@ a.right-ele:hover{
     margin: 0.5rem;
     font-size: 1rem;
 }
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+}
+
